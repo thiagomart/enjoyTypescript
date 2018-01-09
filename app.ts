@@ -1,6 +1,8 @@
 import { Spacecraft, ContainerShip } from "./base-ship";
 import { MillenniumFalcon} from "./starfigther";
+import * as _ from 'lodash';
 
+console.log(_.pad("TypeScript", 100, '='));
 
 let message: string = "Help me, Obi-Wan Kenobi. You're my only hope!";
 console.log(message);

@@ -2,6 +2,8 @@
 exports.__esModule = true;
 var base_ship_1 = require("./base-ship");
 var starfigther_1 = require("./starfigther");
+var _ = require("lodash");
+console.log(_.pad("TypeScript", 100, '='));
 var message = "Help me, Obi-Wan Kenobi. You're my only hope!";
 console.log(message);
 var episode = 4;

@@ -1,0 +1,26 @@
+{
+  "name": "CursoUdemy",
+  "version": "1.0.0",
+  "description": "Aplicação de teste de TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagomart/enjoyTypescript.git"
+  },
+  "keywords": [],
+  "author": "Thiago Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagomart/enjoyTypescript/issues"
+  },
+  "homepage": "https://github.com/thiagomart/enjoyTypescript#readme",
+  "dependencies": {
+    "lodash": "^4.14.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.92"
+  }
+}
