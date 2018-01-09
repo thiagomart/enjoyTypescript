@@ -1,3 +1,7 @@
+import { Spacecraft, ContainerShip } from "./base-ship";
+import { MillenniumFalcon} from "./starfigther";
+
+
 let message: string = "Help me, Obi-Wan Kenobi. You're my only hope!";
 console.log(message);
 
@@ -10,17 +14,10 @@ call('BB-8')
 
 
 
-class Spacecraft{
-    constructor(public propulsor: string){}
 
-    jumpToHiperSpace(){
-        console.log(`Entering hiperspace with ${this.propulsor}`);
-    }
-
-}
 let ship = new Spacecraft('hyperdrive');
 ship.jumpToHiperSpace();
 
-class MillenniumFalcon extends Spacecraft{
-    
-}
+
+let falcon = new MillenniumFalcon()
+falcon.jumpToHiperSpace()
