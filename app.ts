@@ -20,3 +20,7 @@ class Spacecraft{
 }
 let ship = new Spacecraft('hyperdrive');
 ship.jumpToHiperSpace();
+
+class MillenniumFalcon extends Spacecraft{
+    
+}
